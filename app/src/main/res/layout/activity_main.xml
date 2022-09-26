@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehículo eléctrico"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+
+         />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+    ></ImageView>
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+
+        ></EditText>
+    <Button
+        android:id="@+id/btnCambiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar texto"
+        android:textSize="15dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        ></Button>
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="15dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+    ></Button>
+
+
+</LinearLayout>
